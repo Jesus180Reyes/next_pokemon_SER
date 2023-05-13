@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 export const GET =  async(request:any)=>  {
     const hello = "Hola mundo";
-   return new Response(JSON.stringify({ok: true,msg: hello}));
+    return new Response(JSON.stringify({ok: true,msg: hello}));
 } 
 export const POST =  async(request:Request)=>  {
     try {
